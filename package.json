@@ -1,0 +1,19 @@
+{
+  "name": "pocker-app-backend",
+  "version": "1.0.0",
+  "description": "Poker app for the squad.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Amanuel-Bekele/poker-app-backend.git"
+  },
+  "author": "Amanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amanuel-Bekele/poker-app-backend/issues"
+  },
+  "homepage": "https://github.com/Amanuel-Bekele/poker-app-backend#readme"
+}
