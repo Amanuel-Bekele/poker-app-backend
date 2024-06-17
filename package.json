@@ -4,8 +4,10 @@
   "description": "Poker app for the squad.",
   "main": "index.js",
   "scripts": {
+    "build": "zip -r function.zip lambdas node_modules",
+    "deploy": "serverless deploy",
     "test": "test"
-  },
+},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Amanuel-Bekele/poker-app-backend.git"
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/Amanuel-Bekele/poker-app-backend/issues"
   },
-  "homepage": "https://github.com/Amanuel-Bekele/poker-app-backend#readme"
+  "homepage": "https://github.com/Amanuel-Bekele/poker-app-backend#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.598.0",
+    "@aws-sdk/client-lambda": "^3.598.0",
+    "@aws-sdk/lib-dynamodb": "^3.598.0"
+  }
 }
