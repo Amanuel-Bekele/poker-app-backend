@@ -1,0 +1,37 @@
+{
+  "git.autofetch": true,
+  "jshint.options": {
+    "esversion": 6
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontFamily": "monospaced, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontWeight": "500",
+  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+  "workbench.startupEditor": "newUntitledFile",
+  "powermode.enabled": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "window.zoomLevel": 2,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "extensions.ignoreRecommendations": true,
+  "eslint.format.enable": true,
+  "yaml.schemas": {
+    "file:///Users/ambek/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "workbench.colorTheme": "GitHub Dark Default",
+  "files.autoSave": "onFocusChange"
+}
+
