@@ -7,7 +7,7 @@
     "build": "zip -r function.zip lambdas node_modules",
     "deploy": "serverless deploy",
     "test": "test"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Amanuel-Bekele/poker-app-backend.git"

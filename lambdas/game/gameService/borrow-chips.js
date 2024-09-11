@@ -7,7 +7,7 @@ const borrowChips = async (borrowChipsEvent) => {
   const { gameId, lenderName, borrowerName, chips } = borrowChipsEvent;
 
   try {
-    // Retrieve the game data to find the players
+    // 1. Retrieve the game data to find the players
     const getPlayerParams = {
       TableName: 'game-table',
       Key: { gameId },
@@ -29,14 +29,13 @@ const borrowChips = async (borrowChipsEvent) => {
     }
 
     const lender = players[lenderIndex];
-    const borrower = players[borrowerIndex];
 
-    // Check if lender has enough chips
+    // 2. Check if lender has enough chips
     if (lender.chips < chips) {
       return { statusCode: 400, body: 'Lender does not have enough chips' };
     }
 
-    // Create transaction items
+    // 1. Execute lend and borrow in a transaction
     const transactParams = {
       TransactItems: [
         {
@@ -54,7 +53,7 @@ const borrowChips = async (borrowChipsEvent) => {
       ],
     };
 
-    // Execute transaction
+    // 2. Execute transaction
     await dynamoClient.send(new TransactWriteCommand(transactParams));
     return { statusCode: 200, body: 'Chips borrowed successfully' };
   } catch (error) {

@@ -1,0 +1,17 @@
+andys8.jest-snippets
+awesomektvn.scratchpad
+burkeholland.simple-react-snippets
+christian-kohler.npm-intellisense
+dbaeumer.vscode-eslint
+dracula-theme.theme-dracula
+dsznajder.es7-react-js-snippets
+eamodio.gitlens
+enkia.tokyo-night
+esbenp.prettier-vscode
+github.copilot
+github.copilot-chat
+github.github-vscode-theme
+ms-azuretools.vscode-docker
+orta.vscode-jest
+redhat.vscode-yaml
+streetsidesoftware.code-spell-checker

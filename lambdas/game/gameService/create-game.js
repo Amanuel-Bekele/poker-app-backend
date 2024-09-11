@@ -4,7 +4,7 @@ const { PutCommand } = require('@aws-sdk/lib-dynamodb');
 
 // Usage note:
 // This function creates a new game item in game-table.
-// Would be used when create new game is clicked. Would typically create a new game with empty players array.
+// Would be used when create new game is clicked. Would create a new game with empty players array.
 const createGame = async (players = []) => {
   const gameId = generateGameId();
 
