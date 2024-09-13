@@ -28,10 +28,7 @@
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "extensions.ignoreRecommendations": true,
   "eslint.format.enable": true,
-  "yaml.schemas": {
-    "file:///Users/ambek/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-  },
-  "workbench.colorTheme": "GitHub Dark Default",
-  "files.autoSave": "onFocusChange"
+  "workbench.colorTheme": "Abyss",
+  "files.autoSave": "onFocusChange",
+  "files.saveConflictResolution": "overwriteFileOnDisk"
 }
-
